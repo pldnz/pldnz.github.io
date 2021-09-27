@@ -9,13 +9,13 @@ $(document).ready(function(){
     autoplayHoverPause: true,
     responsive:{
       0:{
-          items:2
+        items:1
+      },
+      400:{
+        items:2
       },
       600:{
-          items:3
-      },
-      1000:{
-          items:3
+        items:3
       }
     }
   });
