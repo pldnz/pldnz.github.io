@@ -1,0 +1,50 @@
+/* THEME FONT-FACE */
+
+/* montserrat */
+/* 
+regular 400
+bold 700
+*/
+
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url("../assets/fonts/Montserrat-Regular.ttf");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url("../assets/fonts/Montserrat-Bold.ttf");
+    font-style: normal;
+    font-display: swap;
+}
+
+/* exo */
+
+/*
+exo-light
+exo-light-italic
+exo-regular
+*/
+
+@font-face {
+    font-family: "Exo Light";
+    src: url("../assets/fonts/Exo2-Light.ttf");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Exo Light Italic";
+    src: url("../assets/fonts/Exo2-LightItalic.ttf");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Exo Regular";
+    src: url("../assets/fonts/Exo2-Regular.ttf");
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,11 +1,12 @@
 {
-    "name": "pldnz-portfolio",
+    "name": "pldnz",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "watch": "tailwind -i ./assets/css/theme.css -o ./dist/theme.css --watch"
+        "watch": "tailwind -i ./assets/css/theme.css -o ./dist/theme.css --watch",
+        "css:build": "tailwind -i ./assets/css/theme.css -o ./dist/theme.css --minify"
     },
     "author": "",
     "license": "ISC",

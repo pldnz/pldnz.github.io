@@ -1,3 +1,13 @@
+/* reset */
+@import "./reset.css";
+
+/* font face */
+@import "./font-face.css";
+
+/* custom */
+@import "./custom/aside.css";
+
+/* tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
