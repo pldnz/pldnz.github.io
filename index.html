@@ -92,14 +92,18 @@
             >
         </aside>
 
-        <main class="bg-alto w-full h-screen py-24 pl-12 pr-32">
-            <section class="h-full flex flex-nowrap">
+        <main class="w-full h-screen relative overflow-hidden">
+            <div id="particles-js"></div>
+
+            <section
+                class="py-24 pl-12 pr-32 absolute left-0 top-0 w-full h-full flex flex-nowrap bg-alto/50"
+            >
                 <div class="max-w-sm self-end">
                     <h1 class="font-exo-regular text-5xl mb-1">PAULO DINIZ</h1>
                     <p class="font-exo-light text-base mb-4">
                         Desenvolvedor Web especialista em UX/UI
                     </p>
-                    <p class="font-montserrat-400 text-sm">
+                    <p class="font-exo-light text-base">
                         Atualmente atuando como Desenvolvedor Full Stack na
                         <a
                             class="hover:underline"
@@ -111,32 +115,418 @@
                         necessidades.
                     </p>
                 </div>
-                <div class="w-full flex justify-end">
+                <div class="w-full flex items-center justify-end">
                     <div class="flex flex-col">
                         <a
-                            class="font-exo-light text-8xl mb-8 hover:-skew-x-12 transition-transform ease-in-out duration-300"
-                            href=""
-                            >SOBRE</a
+                            class="flex flex-col mb-20 hover:-translate-x-8 transition-transform ease-in-out duration-300"
+                            href="#sobre"
                         >
+                            <span
+                                class="font-barcode barcode-effect text-[9rem] leading-[1rem]"
+                                >sobre</span
+                            >
+                            <div class="show-link text-[3rem]">
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 1"
+                                >
+                                    s
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 2"
+                                >
+                                    o
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 3"
+                                >
+                                    b
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 4"
+                                >
+                                    r
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 5"
+                                >
+                                    e
+                                </span>
+                            </div>
+                        </a>
                         <a
-                            class="font-exo-light text-8xl mb-8 hover:-skew-x-12 transition-transform ease-in-out duration-300"
-                            href=""
-                            >TRABALHOS</a
+                            class="flex flex-col mb-20 hover:-translate-x-8 transition-transform ease-in-out duration-300"
+                            href="#trabalhos"
                         >
+                            <span
+                                class="font-barcode barcode-effect text-[9rem] leading-[3rem]"
+                                >trabalhos</span
+                            >
+                            <div class="show-link text-[3rem]">
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 1"
+                                >
+                                    t
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 2"
+                                >
+                                    r
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 3"
+                                >
+                                    a
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 4"
+                                >
+                                    b
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 5"
+                                >
+                                    a
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 6"
+                                >
+                                    l
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 7"
+                                >
+                                    h
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 8"
+                                >
+                                    o
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 9"
+                                >
+                                    s
+                                </span>
+                            </div>
+                        </a>
                         <a
-                            class="font-exo-light text-8xl mb-8 hover:-skew-x-12 transition-transform ease-in-out duration-300"
-                            href=""
-                            >CRIE COMIGO</a
+                            class="flex flex-col mb-20 hover:-translate-x-8 transition-transform ease-in-out duration-300"
+                            href="#contato"
                         >
+                            <span
+                                class="font-barcode barcode-effect text-[9rem] leading-[3rem]"
+                                >criecomigo</span
+                            >
+                            <div class="show-link text-[3rem]">
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 1"
+                                >
+                                    c
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 2"
+                                >
+                                    r
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 3"
+                                >
+                                    i
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 4"
+                                >
+                                    e
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 5"
+                                >
+                                    _
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 6"
+                                >
+                                    c
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 7"
+                                >
+                                    o
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 8"
+                                >
+                                    m
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 9"
+                                >
+                                    i
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 10"
+                                >
+                                    g
+                                </span>
+                                <span
+                                    class="flip-text font-exo-regular"
+                                    style="--i: 11"
+                                >
+                                    o
+                                </span>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </section>
 
-            <article></article>
+            <article id="#sobre">
+                <div
+                    class="flex flex-nowrap bg-alto pl-12 pr-32 absolute left-0 top-0 w-full h-full -translate-y-[100%] active:translate-y-0 transition-transform duration-300 ease-in-out"
+                >
+                    <div class="flex justify-between w-full overflow-y-auto">
+                        <div class="mt-[12rem] max-w-4xl">
+                            <h2
+                                class="opacity-0 active:opacity-100 translate-x-96 delay-300 active:translate-x-0 flex flex-col mb-12 transition-all duration-300"
+                            >
+                                <span
+                                    class="font-barcode text-[9rem] leading-[1rem]"
+                                    >sobre mim</span
+                                >
+                                <div class="text-[3rem]">
+                                    <span class="font-exo-regular"> s </span>
+                                    <span class="font-exo-regular"> o </span>
+                                    <span class="font-exo-regular"> b </span>
+                                    <span class="font-exo-regular"> r </span>
+                                    <span class="font-exo-regular"> e </span>
+                                    <span class="font-exo-regular"> _ </span>
+                                    <span class="font-exo-regular"> m </span>
+                                    <span class="font-exo-regular"> i </span>
+                                    <span class="font-exo-regular"> m </span>
+                                </div>
+                            </h2>
+                            <p
+                                class="font-exo-regular text-2xl mb-10 opacity-0 active:opacity-100 delay-500 transition-opacity duration-1000"
+                            >
+                                Olá, sou o Paulo, Desenvolvedor Web especialista
+                                em interfaces de usuário.
+                            </p>
+                            <p
+                                class="font-exo-light text-xl mb-10 opacity-0 active:opacity-100 delay-500 transition-opacity duration-1000"
+                            >
+                                👨‍💻✨ Com formação em Sistemas de Informação e
+                                especializações em Marketing Digital e
+                                Engenharia de Software, busco ser mais do que
+                                apenas um Desenvolvedor.
+                                <br />Me vejo como um arquiteto de experiências,
+                                procurando unir comunicação e design para criar
+                                interfaces que os usuários achem surpreendentes.
+                                <br />
+                                <br />
+                                <span class="font-exo-regular"
+                                    >O que me destaca?</span
+                                >
+                                <br />
+                                🚀 Especializado nas exigências do Lighthouse e
+                                SEO, Meu objetivo é garantir que suas interfaces
+                                não só se destaquem visualmente, mas também
+                                atendam aos padrões do Google e carreguem
+                                rapidamente.
+                                <br />
+                                <br />
+                                <span class="font-exo-regular"
+                                    >Minhas Skills?</span
+                                >
+                                <br />
+                                💻 Tenho experiência com tecnologias como React,
+                                WordPress e VTEX, e utilizo ferramentas de
+                                design, como o Figma, para a criação de
+                                interfaces de usuário.
+                                <br />
+                                <br />
+                                <span class="font-exo-regular"
+                                    >O que mais?</span
+                                >
+                                <br />
+                                🤝 Procuro sempre compreender as necessidades
+                                dos clientes e oferecer soluções personalizadas.
+                                Se você está em busca de um desenvolvedor
+                                comprometido e que entende a linguagem do
+                                cliente, estou aqui para colaborar e fazer o meu
+                                melhor para tornar seus projetos especiais.
+                            </p>
+                            <p
+                                class="font-exo-regular text-2xl mb-5 opacity-0 active:opacity-100 delay-500 transition-opacity duration-1000"
+                            >
+                                Meu Perfil Profissional
+                            </p>
+                            <p
+                                class="font-exo-light text-xl opacity-0 active:opacity-100 delay-500 transition-opacity duration-1000"
+                            >
+                                <span class="font-exo-regular"
+                                    >🎓 Formação Acadêmica:</span
+                                >
+                            </p>
+                            <ul
+                                class="font-exo-light text-xl flex flex-col mb-10 opacity-0 active:opacity-100 delay-500 transition-opacity duration-1000"
+                            >
+                                <li>
+                                    • Bacharel em Sistemas de Informação pela
+                                    FAFIT, 2017
+                                </li>
+                                <li>
+                                    • Especialização em Marketing Digital pela
+                                    FUNIP, 2022
+                                </li>
+                                <li>
+                                    • Especialização em Engenharia de Software
+                                    pela FOCUS, 2023
+                                </li>
+                            </ul>
+                            <p
+                                class="font-exo-light text-x opacity-0 active:opacity-100 delay-500 transition-opacity duration-1000"
+                            >
+                                <span class="font-exo-regular"
+                                    >📚 Cursos Livres:</span
+                                >
+                            </p>
+                            <ul
+                                class="font-exo-light text-xl flex flex-col mb-10"
+                            >
+                                <li>
+                                    •
+                                    <a
+                                        class="hover:underline"
+                                        href="https://www.origamid.com/certificate/53054b47"
+                                        target="_blank"
+                                        >React, Origamid</a
+                                    >
+                                </li>
+                                <li>
+                                    •
+                                    <a
+                                        class="hover:underline"
+                                        href="https://www.origamid.com/certificate/6ce97689/"
+                                        target="_blank"
+                                        >JavaScript ES6, Origamid</a
+                                    >
+                                </li>
+                                <li>
+                                    •
+                                    <a
+                                        class="hover:underline"
+                                        href="https://www.origamid.com/certificate/cee94ba1/"
+                                        target="_blank"
+                                        >SASS, Origamid</a
+                                    >
+                                </li>
+                                <li>
+                                    •
+                                    <a
+                                        class="hover:underline"
+                                        href="https://www.origamid.com/certificate/f6e39f9f/"
+                                        target="_blank"
+                                        >CSS Grid Layout, Origamid</a
+                                    >
+                                </li>
+                                <li>
+                                    •
+                                    <a
+                                        class="hover:underline"
+                                        href="https://www.origamid.com/certificate/dcb3b2e0/"
+                                        target="_blank"
+                                        >CSS Avançado, Origamid</a
+                                    >
+                                </li>
+                                <li>
+                                    •
+                                    <a
+                                        class="hover:underline"
+                                        href="https://www.origamid.com/certificate/88b508a2/"
+                                        target="_blank"
+                                        >WordPress, Origamid</a
+                                    >
+                                </li>
+                                <li>
+                                    •
+                                    <a
+                                        class="hover:underline"
+                                        href="https://origamid.com/certificate/98e2f568"
+                                        target="_blank"
+                                        >Web Design, Origamid</a
+                                    >
+                                </li>
+                                <li>
+                                    •
+                                    <a
+                                        class="hover:underline"
+                                        href="https://www.udemy.com/certificate/UC-9VUQKPBR/"
+                                        target="_blank"
+                                        >PHP, Hcode Treinamentos</a
+                                    >
+                                </li>
+                            </ul>
+                            <p
+                                class="font-exo-light text-xl opacity-0 active:opacity-100 delay-500 transition-opacity duration-1000"
+                            >
+                                <span class="font-exo-regular"
+                                    >💡 Outros Conhecimentos Adquiridos em Minha
+                                    Jornada:</span
+                                >
+                            </p>
+                            <ul
+                                class="font-exo-light text-xl flex flex-col pb-24 opacity-0 active:opacity-100 delay-500 transition-opacity duration-1000"
+                            >
+                                <li>• Figma</li>
+                                <li>• Git</li>
+                                <li>• Atomic Design</li>
+                                <li>• Tailwind Css</li>
+                                <li>• Vue.js</li>
+                                <li>• VTEX</li>
+                            </ul>
+                        </div>
+                        <figure
+                            class="-translate-y-2 sticky h-fit top-0 opacity-0 active:opacity-100 delay-500 transition-opacity duration-1000"
+                        >
+                            <img
+                                src="./assets/img/paulo-diniz.webp"
+                                alt="Foto do Paulo"
+                            />
+                        </figure>
+                    </div>
+                </div>
+            </article>
             <article></article>
             <article></article>
         </main>
 
         <script src="assets/js/app.js"></script>
+        <script src="assets/js/particles.js"></script>
+
+        <script></script>
     </body>
 </html>

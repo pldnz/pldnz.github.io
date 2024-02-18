@@ -48,3 +48,12 @@ exo-regular
     font-style: normal;
     font-display: swap;
 }
+
+/* libreBarcode */
+
+@font-face {
+    font-family: "LibreBarcode";
+    src: url("../assets/fonts/LibreBarcode39-Regular.ttf");
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,49 @@
+.show-link {
+    opacity: 0;
+    animation: show 1s forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.barcode-effect {
+    letter-spacing: -100px;
+    animation: barcode 0.5s forwards;
+}
+
+@keyframes barcode {
+    0% {
+        opacity: 0;
+        letter-spacing: -30px;
+    }
+    100% {
+        opacity: 1;
+        letter-spacing: 0;
+    }
+}
+
+.flip-text {
+    position: relative;
+    display: inline-block;
+    animation: flip 1s forwards;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+.is-active .flip-text-linear {
+    animation: flip 1s forwards;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes flip {
+    0%,
+    80% {
+        transform: rotateY(360deg);
+    }
+}

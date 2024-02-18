@@ -9,6 +9,7 @@ module.exports = {
                 "exo-light": ["Exo Light", "monospace"],
                 "exo-light-italic": ["Exo Light Italic", "monospace"],
                 "exo-regular": ["Exo Regular", "monospace"],
+                barcode: ["LibreBarcode", "monospace"],
             },
             colors: {
                 alto: "#d9d9d9",
