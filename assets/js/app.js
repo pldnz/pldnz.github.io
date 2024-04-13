@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     if (document.readyState === "interactive") {
         const internalLinks = document.querySelectorAll("a[href^='#']");
+        const asideMenu = document.getElementById("aside-menu");
 
         if (internalLinks.length > 0) {
             internalLinks.forEach((link) => {
@@ -12,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     console.log(link.getAttribute("href"));
                     console.log(target);
                     target.classList.add("is-active");
+                    asideMenu.classList.add("is-active");
                 });
             });
         }
