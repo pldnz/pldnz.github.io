@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (document.readyState === "interactive") {
         const internalLinks = document.querySelectorAll("a[href^='#']");
         const asideMenu = document.getElementById("aside-menu");
+        const homeLink = document.getElementById("home-link");
 
         if (internalLinks.length > 0) {
             internalLinks.forEach((link) => {
@@ -10,13 +11,27 @@ document.addEventListener("DOMContentLoaded", () => {
                     const target = document.getElementById(
                         link.getAttribute("href")
                     );
-                    console.log(link.getAttribute("href"));
-                    console.log(target);
+
                     target.classList.add("is-active");
                     asideMenu.classList.add("is-active");
                 });
             });
         }
+
+        homeLink.addEventListener("click", (e) => {
+            e.preventDefault();
+            internalLinks.forEach((link) => {
+                const target = document.getElementById(
+                    link.getAttribute("href")
+                );
+
+                if (target && target.classList.contains("is-active")) {
+                    target.classList.remove("is-active");
+                }
+            });
+
+            asideMenu.classList.remove("is-active");
+        });
 
         setTimeout(() => {
             particlesJS("particles-js", {
